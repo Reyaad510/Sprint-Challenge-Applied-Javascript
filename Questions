@@ -1,0 +1,36 @@
+
+
+1. What is the DOM?
+
+ DOM stands for Document Object Model and it is an object representation of the html elements of a webpage. The browswer uses HTML file as a blueprint along with CSS later and Javascript to tell how the page should act. This model is a Javascript Object containing every element in order on the page and this object is referred to as the DOM. You are able to access any part of the page because the data structure is known as a tree meaning it has parent elements with nested children elements. This allows us to access whatever we want in the document and to manipulate it in various ways.
+
+
+
+
+
+2. What is an event?
+
+An event is an interaction that a user will have with the site. Examples of events can be things such as a click, dblclick, keydown, keyup, mouseover, mouseleave, drag/drop, etc. These events allow Javascript to make website extremely dynamic. The browswer can detect these events and when an event happens on a page it is known as a trigger.
+
+
+
+
+
+3. What is an event listener?
+
+An evenet listener is when we choose specific elements to listen to specific events and they will fire a callback when that event occurs.
+
+
+
+
+4. Why would we convert a NodeList into an Array?
+
+The reason we would convert a NodeList into an Array is because NodeList only has access to the forEach() method and other smaller methods that is shares with HTMLColleciton. By converting it to an Array it will have acces to a multitude of other methods such as .map and reduce.
+
+
+
+
+
+5. What is a component?
+
+A component is modular. A component is a reusable piece of code that can be used to build elements sharing functionality and styling. 
